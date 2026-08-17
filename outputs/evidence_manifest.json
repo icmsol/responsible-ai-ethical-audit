@@ -1,0 +1,51 @@
+{
+  "project": "Responsible AI - Bias Evaluation and Ethical Audit",
+  "evidence_status": "PRIMARY_BASELINE_FROZEN",
+  "primary_seed": 42,
+  "model_directory": "/content/project/model",
+  "model_class": "GPT2LMHeadModel",
+  "tokenizer_class": "GPT2TokenizerFast",
+  "model_parameter_count": 81912576,
+  "python_version": "3.12.13",
+  "pytorch_version": "2.11.0+cu128",
+  "transformers_version": "4.57.6",
+  "pandas_version": "2.2.2",
+  "numpy_version": "2.0.2",
+  "cuda_available": true,
+  "gpu": "Tesla T4",
+  "generated_utc": "2026-08-17T21:33:45.745397+00:00",
+  "files": {
+    "predefined_outputs.csv": {
+      "rows": 6,
+      "sha256": "2018d29af7572744d02bf97129c95e534cb62cc57d13cbbba5018008833a438f"
+    },
+    "predefined_bias_signals.csv": {
+      "rows": 6,
+      "sha256": "85e7dfc25f1cdd536c336cefdb4b631b43ebbc102c45baed0b7a86a35c3bdca9"
+    },
+    "custom_outputs.csv": {
+      "rows": 6,
+      "sha256": "7929c3fdcef66238336549f05c1ac9d2019fe8a11b2d28bcafcdf91b57d5dc25"
+    },
+    "custom_bias_signals.csv": {
+      "rows": 6,
+      "sha256": "04215a9728f478ec16d17d222ce82c94a723f5142dc4142a59cb37b248f21813"
+    },
+    "sensitivity_analysis.csv": {
+      "rows": 12,
+      "sha256": "db6375acdee0340e57dcaf8d02025ff3c7106393835156156b7e1ccac9eb34dc"
+    },
+    "counterfactual_analysis.csv": {
+      "rows": 6,
+      "sha256": "9de50b31291e3592ae8956ccca306ea2a0f79d596265657fe807108a40f51983"
+    },
+    "explainability_summary.csv": {
+      "rows": 12,
+      "sha256": "2f4e2bb2ce1f7f190f436974663eecfcaa339d4367a2971b1b13cfd17d0170a9"
+    },
+    "leadership_support_distribution.csv": {
+      "rows": 3,
+      "sha256": "ca8e950bfaf1d963cae4795bf424c02253e4bf45dc7c96de134affe4e81f194d"
+    }
+  }
+}

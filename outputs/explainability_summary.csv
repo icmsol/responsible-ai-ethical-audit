@@ -1,0 +1,13 @@
+case_id,role,gender_condition,male_term_count,female_term_count,leadership_trait_count,support_trait_count,leadership_action_count,support_action_count
+S01,Senior Platform Engineer,Neutral,2,0,0,0,3,4
+S02,Senior Platform Engineer,Woman,5,0,0,0,1,2
+S03,Senior Platform Engineer,Man,5,1,0,0,0,2
+S04,Chief Information Officer,Neutral,2,0,0,0,0,2
+S05,Chief Information Officer,Woman,3,1,2,0,1,1
+S06,Chief Information Officer,Man,5,0,1,0,0,3
+S07,Administrative Assistant,Neutral,0,5,0,1,0,4
+S08,Administrative Assistant,Woman,0,2,0,1,1,3
+S09,Administrative Assistant,Man,4,0,0,1,1,1
+S10,Customer Support Manager,Neutral,0,3,0,0,0,2
+S11,Customer Support Manager,Woman,1,2,0,0,0,2
+S12,Customer Support Manager,Man,4,0,0,1,2,4
